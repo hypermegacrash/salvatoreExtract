@@ -1,0 +1,51 @@
+gametitle=Ape Escape - Million Monkeys
+
+[enable_log_print]
+author=Crash
+description=Enable Log Print
+patch=1,EE,20100A18,extended,24030075
+patch=1,EE,20100A1C,extended,0000000C
+patch=1,EE,20100A20,extended,03E00008
+patch=1,EE,20100A24,extended,00000000
+
+[enable_log_print2]
+author=Crash
+description=Enable Log Print
+patch=1,EE,201009C0,extended,24030075
+patch=1,EE,201009C4,extended,0000000C
+patch=1,EE,201009C8,extended,03E00008
+patch=1,EE,201009CC,extended,00000000
+
+[log_pre_hash_strings]
+author=Crash
+description=Log names of files before loaded
+patch=1,EE,20485e60,extended,08196040
+patch=1,EE,20485e64,extended,03E0582D
+patch=1,EE,106580fc,extended,0000000A
+patch=1,EE,20658100,extended,24030075
+patch=1,EE,20658104,extended,0000000C
+patch=1,EE,20658108,extended,0080482D
+patch=1,EE,2065810C,extended,3C040065
+patch=1,EE,20658110,extended,348480fc
+patch=1,EE,20658114,extended,00802021
+patch=1,EE,20658118,extended,24030075
+patch=1,EE,2065811C,extended,0000000C
+patch=1,EE,20658120,extended,0120202D
+patch=1,EE,20658124,extended,908C0000
+patch=1,EE,20658128,extended,318F00FF
+patch=1,EE,2065812C,extended,11E0000B
+patch=1,EE,20658130,extended,0000102D
+patch=1,EE,20658134,extended,000278F8
+patch=1,EE,20658138,extended,318D00FF
+patch=1,EE,2065813C,extended,01E2782D
+patch=1,EE,20658140,extended,24840001
+patch=1,EE,20658144,extended,000F78B8
+patch=1,EE,20658148,extended,908C0000
+patch=1,EE,2065814C,extended,01E2782D
+patch=1,EE,20658150,extended,318E00FF
+patch=1,EE,20658154,extended,15C0FFF7
+patch=1,EE,20658158,extended,01ED102D
+patch=1,EE,2065815C,extended,0002103C
+patch=1,EE,20658160,extended,01600008
+patch=1,EE,20658164,extended,0002103F
+patch=1,EE,20658168,extended,00000000

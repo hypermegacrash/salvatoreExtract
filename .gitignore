@@ -1,0 +1,7 @@
+# Python compiled files
+__pycache__/
+
+# Game Files
+PDATA/
+DSKIMG/
+OUT_*/

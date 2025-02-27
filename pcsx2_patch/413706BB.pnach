@@ -1,0 +1,43 @@
+gametitle=Ape Escape - Pumped and Primed
+
+[enable_log_print]
+author=Crash
+description=Enable Log Print
+patch=1,EE,20100890,extended,24030075
+patch=1,EE,20100894,extended,0000000C
+patch=1,EE,20100898,extended,03E00008
+patch=1,EE,2010089C,extended,00000000
+
+[log_pre_hash_strings]
+author=Crash
+description=Log names of files before loaded
+patch=1,EE,203727b8,extended,08192040
+patch=1,EE,203727bc,extended,03E0582D
+patch=1,EE,106480fc,extended,0000000A
+patch=1,EE,20648100,extended,24030075
+patch=1,EE,20648104,extended,0000000C
+patch=1,EE,20648108,extended,0080482D
+patch=1,EE,2064810C,extended,3C040064
+patch=1,EE,20648110,extended,348480fc
+patch=1,EE,20648114,extended,00802021
+patch=1,EE,20648118,extended,24030075
+patch=1,EE,2064811C,extended,0000000C
+patch=1,EE,20648120,extended,0120202D
+patch=1,EE,20648124,extended,908C0000
+patch=1,EE,20648128,extended,318F00FF
+patch=1,EE,2064812C,extended,11E0000B
+patch=1,EE,20648130,extended,0000102D
+patch=1,EE,20648134,extended,000278F8
+patch=1,EE,20648138,extended,318D00FF
+patch=1,EE,2064813C,extended,01E2782D
+patch=1,EE,20648140,extended,24840001
+patch=1,EE,20648144,extended,000F78B8
+patch=1,EE,20648148,extended,908C0000
+patch=1,EE,2064814C,extended,01E2782D
+patch=1,EE,20648150,extended,318E00FF
+patch=1,EE,20648154,extended,15C0FFF7
+patch=1,EE,20648158,extended,01ED102D
+patch=1,EE,2064815C,extended,0002103C
+patch=1,EE,20648160,extended,01600008
+patch=1,EE,20648164,extended,0002103F
+patch=1,EE,20648168,extended,00000000
